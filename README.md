@@ -10,8 +10,10 @@ A continuación estaremos desarrollando el paso a paso para concectar mi reposit
 
     *escribir los COMANDOS para iniciar el repositorio local y conectarlo con el remoto
         -> git init -> iniciar repositorio local
-        -> git add -> agregar cambios al entorno de preparación 
-        -> 
+        -> git status -> muestra el estado de los archivos
+        -> git add .-> agregar cambios al entorno de preparación 
+        -> git commit -m "first commit" -> poner mensaje y significa que los archivos estan listos para enviarse al repositorio remoto
+        
 
 
 
