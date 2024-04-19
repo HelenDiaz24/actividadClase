@@ -5,15 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>conceptos básicos js</title>
 
+    <script src="scripts/conceptosBasicos.js" defer></script>
+    <script src="scripts/practicaConceptos.js" defer type="text/JavaScript"></script>
+
 </head>
 <body>
-    <h1>Conceptos básicos</h1>
-    <h2>De JavaScript</h2>
+
+    <header>
+        <h1>Conceptos básicos</h1>
+        <h2>De JavaScript</h2>
+    </header>
+
+
+    <main>
+        <p>Implementar los conceptos de sitios web dinamicos con JavaScript </p>
+
+        <ol>
+         <li>1. Manejo del DOM</li>
+         <li>2. Condicionales</li>
+         <li>3. Ciclos</li>
+        </ol>
+
+         <!-- Sección para primer ejercicio -> DOM -->
+        <section>
+            <h3>Ejercicio de DOM y Condicionales</h3>
+             <!-- Qué quiero hacer con mi ejercicio -->
+            <p>Preguntar al usuario su edad y mostrar en pantalla si es mayor o menor de edad</p>
+
+            <div>
+                 <!-- INPUT -> entrada -> algo que se suministra al usuario-->
+                 <label>¿Cuá es tu edad? </label><input type="number" id="edadInput" 
+                 placeholder="Ingrese aquí su edad">
+                <button onclick="verificarEdad()">Verificar edad</button>
+
+                
+                <p id="mensaje"></p>    
+            
+                </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Todos los derechos reservados, creado por Helen Diaz</p>
+    </footer>
+
+
+   
 
     <!-- SCRIPT -> VINCULAR js con el canal html -->
     <!-- 1. Inmediatamente antes del body-->
     <!-- 2. En la etiqueta head, se anexa defer-->
-    <script src="/conceptosBasicos.js"></script>
 
 </body>
 </html>

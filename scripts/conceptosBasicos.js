@@ -55,3 +55,8 @@ console.log("Mi mensaje");
     function filtrarInformacion (){
         console.log("solo información sobore depresión")
     }
+
+    //En la carpeta scripts van todos los archivos de Js pero destinados a darle dinamismo al sitio web
+
+    //NODE JS -> para implementar js en backend
+    
